@@ -1,0 +1,105 @@
+/*font-family: 'Open Sans', sans-serif; 
+font-family: 'Raleway', sans-serif; */
+.navigation
+{
+    height: 3vh;
+}
+.logo
+{
+    height: auto;
+}
+.navigation
+{
+    list-style: none;
+    color: white;
+}
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.orange
+{
+    color: rgb(233, 77, 4) !important;
+}
+.trai-orange
+{
+    border: solid 1px rgb(233, 77, 4);
+    width: 12vw;
+}
+.texte-entete
+{
+    text-align: center;
+    color: white;
+}
+/*main*/
+.icone1
+{
+    margin-right: 5%;
+}
+h2
+{
+    color: rgb(233, 77, 4);
+    border-left:solid 0.3vw rgb(233, 77, 4);
+}
+
+.image_agrandie
+{
+    height: 70%;
+    width: auto;
+    position: absolute;
+    right: 30%;
+    top: 130%; 
+    display: none;
+    border-radius:2%;
+    border: black solid 1px;
+    box-shadow: 100px 100px 400px rgb(46, 46, 46), -100px -100px 400px rgb(46, 46, 46);
+}
+
+/*footer*/
+footer
+{
+    color: white;
+}
+form
+{
+    height: 6vh;
+}
+#email
+{
+    height: 9vh;
+   border-right: none;
+   border-bottom: white 1px solid;
+   margin: 0 !important;
+   padding: 0 !important;
+}
+#email::placeholder
+{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vh; 
+}
+button
+{
+    height: 9vh;
+    max-width: 5vw;
+    padding:auto !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6vh; 
+}
+.icone2
+{
+    height: 100%;
+    width: auto;
+}
+.icone2:hover
+{
+    box-shadow:2px 2px 10px white;
+    border-radius: 2%;
+}
+.copyright
+{
+    font-size: 1vw;
+}
